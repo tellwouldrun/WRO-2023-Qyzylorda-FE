@@ -15,7 +15,7 @@ Content
 <li>video.txt - link to youtube video</li>
 <li>some files are just codes</li>
 <li>construction</li>
-Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels. we intended to include raspberry pi and raspberry cameras in the future.
+Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels. we intended to include raspberry pi and raspberry cameras in the future.<br>
 
 <b>Ultrasonic Sensor</b>
 
@@ -40,7 +40,7 @@ Color sensor is essential for our robot in determining direction of the movement
 <b>Camera Pixy2</b><br><br> 
 Pixy camera is used to determine the color and location of the obstacles that are located in the path of the vehicle. With the help of this camera, the vehicle goes around objects and completes tasks.
 
-<b>Medium motor </b><br>
+<b>Medium motor </b><br><br>
 The Medium Motor block controls the Medium Motor. You can turn the motor on or off, control its power level, or turn the motor on for a specified amount of time or rotations. Select the motor (A, B, C, or D) that you want the Medium Motor block to control by using the Port Selector on the top of the block. 　 
 
 <b>Gyro</b>

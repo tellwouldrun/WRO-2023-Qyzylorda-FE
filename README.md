@@ -8,8 +8,8 @@ Team participants:
   <li>Adilbek Nurdaulet.</li>
 <br>
 Coach: Akhmetov Serik<br><br>
-Git repository include files with program both for qualification and final rounds.
-Content
+Git repository include files with program both for qualification and final rounds.<br>
+<b>Description of documentation files and folders:</b>
 <li>models - constructions of robot</li>
 <li>resourses - some files are just codes</li>
 <li>schemes - schemes of device in pdf files</li>

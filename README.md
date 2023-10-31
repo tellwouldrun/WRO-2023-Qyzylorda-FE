@@ -37,10 +37,10 @@ Based on this data, the user can determine whether the robot is turning, and als
 
 Color sensor is essential for our robot in determining direction of the movement. Because it defines reflected light intensity and, thus, color of the line before turnings. It can calculate RGB components of colors. After, native block in lego determines exact color of lines. it helps to recognize where turn is. if first seen line is orange, then robot turns right and vice verse. The microcontroller handles all sensor measurements and data analysis which is then communicated back to the EV3 P-brick. The color sensor is able to return new sensor values 1000 times a second if read surface changes fast enough. The sensor is programmed to automatically return a new sensor value whenever the value changes or if the EV3 P-brick requests a latest sensor value. When the color sensor are connected to the EV3 P-brick it automatically starts by identifying itself to the EV3 P-brick as a color sensor and it communicates the modes and value ranges it supports before it switches to the default mode which is light sensor mode.
 
-<b>Camera Pixy2</b> 
+<b>Camera Pixy2</b><br><br> 
 Pixy camera is used to determine the color and location of the obstacles that are located in the path of the vehicle. With the help of this camera, the vehicle goes around objects and completes tasks.
 
-Medium motor 
+<b>Medium motor </b><br>
 The Medium Motor block controls the Medium Motor. You can turn the motor on or off, control its power level, or turn the motor on for a specified amount of time or rotations. Select the motor (A, B, C, or D) that you want the Medium Motor block to control by using the Port Selector on the top of the block. 　 
 
 <b>Gyro</b>

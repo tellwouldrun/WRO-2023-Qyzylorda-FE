@@ -16,8 +16,9 @@ Git repository include files with program both for qualification and final round
 <li>t-photo - photos of team</li>
 <li>v-photos - photos of robot</li>
 <li>videos - links to youtube video and same video files</li>
-<li>readme - full information about the team and a full description of the vehicle (robot)</li>
+<li>readme - full information about the team and a full description of the vehicle (robot)</li><br><br>
 
+<b>Briefly about the vehicle (robot)</b><br><br>
 Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels. we intended to include raspberry pi and raspberry cameras in the future.<br>
 
 <b>Ultrasonic Sensor</b>

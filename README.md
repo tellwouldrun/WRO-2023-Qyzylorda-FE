@@ -21,13 +21,20 @@ Git repository include files with program both for qualification and final round
 <b>Briefly about the vehicle (robot)</b><br><br>
 Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels. we intended to include raspberry pi and raspberry cameras in the future.<br>
 
+<b>Algorithm of operation of the vehicle program</b>
+<li>Data refresh(Zeroing the gyroscopic sensor value)</li>
+<li>Detection of lines to determine the direction of the robot</li>
+<li>Detection of obstacles for the corresponding robot movements (if the obstacle is red, then turn right, and if green, then turn left)</li>
+<li>Lap count</li>
+<li>Finish</li><br>
 <b>Ultrasonic Sensor</b>
 
 This is a digital sensor, which measures the distance to an object.
 
 In addition to the ultrasound receiver, which is a kind of a special microphone, this sensor also has an ultrasound transmitter. The transmitter sends an ultrasonic wave that bounces off the obstacle and reflects back to the robot. This returning wave is picked up by the receiver, which is the actual sensor. The robot calculates the distance to an obstacle by measuring the time elapsed from the moment the ultrasonic wave was emitted until the echo of this wave, which has reflected back from an object, came back.
 
-The ultrasonic sensor enables three different modes. It enables making distance measurement up to 250 cm (100 Inches) with an accuracy of 1 cm (0.393 Inches) in either centimeters or inches. It also enables a listen mode where the ultrasonic sensor is measuring whether other ultrasonic sensor are active within its surroundings. This sensor is implemented as a digital sensor, meaning the sensor includes a small 8-bit microcontroller which communicates with the EV3 P-brick using UART communication on pin 5 and 6. The microcontroller handles all sensor measurements and data analysis which is then communicated back to the EV3 P-brick. The ultrasonic sensor sends back new distance measurement whenever a new distance is detected. If the distance is 250 cm (100 Inches) the duration between new sensor values will approximately be every 15 mS. With a smaller distance the ultrasonic sensor will be able to return measurement faster. The ultrasonic sensor measure the distance to an object by sending out an ultrasonic sound signal, 12 sound burst at 40 KHz. The receive transducer is most sensitive at 40 KHz and has a beam angle of approximately 90 degree.
+The ultrasonic sensor enables three different modes. It enables making distance measurement up to 250 cm (100 Inches) with an accuracy of 1 cm (0.393 Inches) in either centimeters or inches. It also enables a listen mode where the ultrasonic sensor is measuring whether other ultrasonic sensor are active within its surroundings. This sensor is implemented as a digital sensor, meaning the sensor includes a small 8-bit microcontroller which communicates with the EV3 P-brick using UART communication on pin 5 and 6. The microcontroller handles all sensor measurements and data analysis which is then communicated back to the EV3 P-brick. The ultrasonic sensor sends back new distance measurement whenever a new distance is detected. If the distance is 250 cm (100 Inches) the duration between new sensor values will approximately be every 15 mS. With a smaller distance the ultrasonic sensor will be able to return measurement faster. The ultrasonic sensor measure the distance to an object by sending out an ultrasonic sound signal, 12 sound burst at 40 KHz. The receive transducer is most sensitive at 40 KHz and has a beam angle of approximately 90 degree.<br>
+<img src="Ultrasonic.jpg"/>
 
 <b>Gyroscope</b>
 

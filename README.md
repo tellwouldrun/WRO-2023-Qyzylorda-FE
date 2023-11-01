@@ -19,7 +19,7 @@ Git repository include files with program both for qualification and final round
 <li>readme - full information about the team and a full description of the vehicle (robot)</li><br><br>
 
 <b>Briefly about the vehicle (robot)</b><br><br>
-Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels.We use 2 medium motors to drive the vehicle which rotate one axis to add extra power<br>
+Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle lego motors, one for steering and others for driving. One of the sensors is a gyroscope, it helps to straighten the robot to correct course after turning. Second one is a ultrasonic sensor to see whether robot must stop or should continue to drive. also, it see obstacles we should avoid. main robot's processing center is lego ev3 brick. it is connected to sensors and motors through lego cabels.We use 2 medium motors to drive the vehicle which rotate one axis to add extra power.<br>
 
 ![imgonline-com-ua-Resize-0iMIDs2Cbz](https://github.com/tellwouldrun/WRO-2023-Qyzylorda-FE/assets/142982463/97c595a1-8303-4ace-996d-4a38ba5323dd)
 

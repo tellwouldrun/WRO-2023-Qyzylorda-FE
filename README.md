@@ -55,6 +55,7 @@ Color sensor is essential for our robot in determining direction of the movement
 Pixy camera is used to determine the color and location of the obstacles that are located in the path of the vehicle. With the help of this camera, the vehicle goes around objects and completes tasks.<br><br>
 <img src="https://cdn1.botland.de/img/art/inne/12375_13b.jpg" width="400"/>
 
+
 <b>Medium motor </b><br><br>
 The Medium Motor block controls the Medium Motor. You can turn the motor on or off, control its power level, or turn the motor on for a specified amount of time or rotations. Select the motor (A, B, C, or D) that you want the Medium Motor block to control by using the Port Selector on the top of the block.<br><br>
 <img src="https://ae01.alicdn.com/kf/H3c02e7a620ae4d7f99ff510a7a126cean.jpg" width="250"/>

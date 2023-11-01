@@ -26,6 +26,7 @@ Robot consists of 3 motors and 4 sensors, including 1 camera. They are 3 middle 
 <li>Detection of lines to determine the direction of the robot</li>
 <li>Detection of obstacles for the corresponding robot movements (if the obstacle is red, then turn right, and if green, then turn left)</li>
 <li>Lap count</li>
+<li>Changing the direction of movement of vehicles depending on the last obstacle</li>
 <li>Finish</li><br>
 <b>Ultrasonic Sensor</b>
 
